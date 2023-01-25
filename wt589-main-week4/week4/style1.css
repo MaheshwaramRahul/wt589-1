@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Source+Sans+Pro:ital,wght@1,200&family=Unna:ital@1&display=swap');
+.h1{
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 19px;
+    color:#FCF8E8;
+}
+.h1:hover
+{
+    color:#472D2D;
+}
+#container1
+{
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: #94B49F;
+}
+#container
+{
+    
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav input
+{
+    height: 23px;
+    margin-top: 14px;
+    border-radius: 25px;
+    margin-right: 90px;
+    width: 500px;
+    margin-left: 30px;
+    text-align: center;
+    background-color:powderblue;
+}
+main form
+{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+hr{
+    height: 3px;
+    background-color:#5A8F7B;
+}
+main form:hover{
+    color:#5A8F7B
+}
+main form input
+{
+    border-radius: 15px;
+    margin-left: 15px;
+}
+#regtable
+{
+    background-color: #ECB390;
+    text-align: center;
+}
+.sec
+{
+    background-color: #ECB390;
+    border-radius: 25px;
+    border:2px solid grey;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 2px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color:teal;
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color:#ECB390;
+}
+main{
+    clear:both;
+    border-radius: 25px;
+}
+body
+{
+    background:url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+footer{
+    background-color:grey;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    text-align: center;
+}
+footer h2{
+    color: blue;
+    margin-top: 10px;
+}
+footer h2:hover{
+   color: green;
+}
+#para1
+{
+    border-radius: 10px;
+    color:black;
+    background-color:#ECB390;
+    font-size: 20px;
+    font-family: 'Unna', serif;
+}
+main h2{
+    text-align: center;
+    background-color:#5A8F7B ;
+    border:1px dotted grey;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+main h1{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #5A8F7B;
+    border-radius: 25px;
+}
+main h1:hover{
+   color: #472D2D;
+}
+main img{
+    border-radius: 25px;
+    border: 3px solid grey;
+    opacity: 0.7;
+}
+main table{
+    background-color:dimgray;
+}
+main img:hover
+{
+  opacity: 1;
+}
+#grid
+{
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr;
+}
+.items
+{
+    background-color: #5A8F7B;
+    height: 250px;
+    width: 250px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin:20px;
+}
+.item1
+{
+    background: url(beach.jpeg);
+    background-size: 250px 250px;
+}
+.item2
+{
+    background: url(hotel.jpeg);
+    background-size: 250px 250px;
+}
+.item3
+{
+    background: url(bunjee.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+}
+.food1
+{
+    background: url(wine.jpeg);
+    background-size: 250px 250px;
+}
+.food2
+{
+    background: url(seafood.jpeg);
+    background-size: 250px 250px;
+}
+.food3
+{
+    background: url(dessert.jpeg);
+    background-size: 250px 250px;
+}
+.ol{
+   margin-left: 80px;
+   margin-top: 100px;
+   font-size: 35px;
+   color: white;
+   opacity: 0.8;
+   
+}
+.ol:hover{
+    color:black;
+}
